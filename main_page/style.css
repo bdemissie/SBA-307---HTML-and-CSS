@@ -1,0 +1,86 @@
+  * {
+    padding: 0px;
+    margin: 0px;
+  }
+  body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.book_shop {
+  color: rgb(0, 0, 0);
+}
+
+.book_shop:hover{
+   text-decoration:underline;
+}
+
+.best_seller{
+  text-decoration: underline
+}
+.best_seller:hover{
+  text-decoration: none;
+}
+  ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+  
+  }
+  .book_price :hover{
+    text-decoration:underline;
+      font-weight: bolder;
+
+  }
+
+  .hover_link :hover{
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  html, body {
+    height: 100%; /* Ensures the full height of the viewport */
+  }
+  
+
+  .book{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .book_img {
+    width: 50%; /* Adjust us needed */
+    height: auto; 
+  }
+
+  .book_title {
+    font-size:medium;
+  } 
+
+  .book_author {
+    font-size: large;
+  }
+
+  .outer-wrapper{
+  background-image: url("../images/78b87549-b9d7-4012-9fbe-6fda476b41ed.webp");
+	height: 350px; 
+	background-position: center;
+	background-repeat: no-repeat;
+  background-size: cover;
+  color:whitesmoke;
+  }
+
+  .cost-label {
+    font-weight: bold;
+    width: 120px;
+    text-align: right;
+    color: white;
+  }
+  
+  .cost-amount {
+    padding-left: 10px;
+    text-align: left;
+    color: rgb(12, 12, 229);
+  }

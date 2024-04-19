@@ -1,0 +1,31 @@
+* {
+    padding: 0px;
+    margin: 0px;
+  }
+  body {
+  font-family: "Montserrat", sans-serif;
+}
+
+
+
+.book_img {
+    width: 15%; /* Adjust us needed */
+    height: auto; 
+  }
+
+  .checkout-box {
+    background-color:rgb(244, 239, 239);
+  }
+
+  .paypal {
+    height: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+
+
+
+
+
+
